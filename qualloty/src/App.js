@@ -6,8 +6,10 @@ function App() {
     <div className="App">
       <NavBar/>
       <div className="main-box">
-        <p className="element">Bringing back allo - A wise, wise man</p>
-        <img className="element"src="./images/2vin.jpg" width="400px"/>
+        <div class="slogan-container">
+          <p className="element">Bringing back allo - A wise, wise man</p>
+        </div>
+        <img className="element"src="./images/2vin.jpg"/>
       </div>
     </div>
     

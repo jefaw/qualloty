@@ -4,19 +4,28 @@
   
 }
 
-.App p{
-  font-style: italic;
-  font-size: 1.5em;
-  margin-top: 70px;
-}
-
 .App .main-box {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 100%;
+}
+
+.App .main-box .slogan-container {
+  display: flex;
+  align-items: center;
 }
 
 .App .main-box .element {
   padding: 50px;
 }
+
+.App .main-box p.element {
+  font-style: italic;
+  font-size: 1.5em;
+  margin-bottom: 20%;
+}
+.App .main-box img.element {
+  width: 40%;
+}
+
 
