@@ -12,6 +12,19 @@
   background-color:#4C367A;
   display: flex;
 }
+.header button{
+ /*border: none;*/
+  border-radius: 50%;
+  font-size: 1.5em;
+  margin-right: 1em;
+  padding: 7px 15px;
+  cursor: pointer;
+  
+}
+.header button:hover{
+  background-color: black;
+  color: white;
+}
 
 .header h1{
   color: #9B99FF;
@@ -21,7 +34,6 @@
 }
 
 .header .navLinks {
-  flex-direction: row-reverse;
   float: right;
   text-align: right;
   width: 100%;
