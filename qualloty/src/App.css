@@ -1,7 +1,11 @@
 .App {
   text-align: left;
   color: white;
-  
+  height: 100vh; 
+}
+
+.dark-mode{
+  background-color: #323037;
 }
 
 .App .main-box {
