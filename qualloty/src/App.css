@@ -12,6 +12,7 @@
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .App .main-box .slogan-container {

@@ -1,5 +1,6 @@
 import './App.css';
-import {NavBar} from './Navbar/navbar'
+import {NavBar} from './components/NavBar/NavBar'
+import MainMenu from './components/MainMenu/MainMenu'
 import {useState} from 'react';
 
 function App() {
@@ -16,8 +17,9 @@ function App() {
         <div className="slogan-container">
           <p className="element">Bringing back allo - A wise, wise man</p>
         </div>
-        <img className="element"src="./images/2vin.jpg"/>
+        <img className="element" src="./images/2vin.jpg"/>
       </div>
+      <MainMenu/>
     </div> 
   );
 }
