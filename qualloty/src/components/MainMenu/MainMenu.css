@@ -1,0 +1,24 @@
+.mainMenu {
+  display: flex;
+  font-size: 1.4em;  
+  text-align: center;
+  justify-content: space-evenly;  
+}
+
+.mainMenu .menuItem{
+  
+}
+
+.mainMenu .menuItem img {
+  width: 12vw;
+  height: 15vw;
+  border-radius: 50px;
+  border: 3px solid #868686;
+  
+  object-fit: cover;
+}
+
+.mainMenu .menuItem img:hover{
+  border-color: #54CEE9;
+  cursor: pointer;
+}

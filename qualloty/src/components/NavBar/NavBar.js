@@ -1,15 +1,10 @@
 import React from 'react';
-import './navbar.css';
+import './NavBar.css';
 
 const BLACK = '#000000';
 const PURPLE = '#4C367A';
 
 export class NavBar extends React.Component {
-  constructor(props){
-    super(props);
-    this.state = {color: '#4C367A'};
-  }
-
   render() {
     const pages = ['Sign Up', 'Login'];
     const navLinks = pages.map(page => {
