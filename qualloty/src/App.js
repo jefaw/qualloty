@@ -1,5 +1,5 @@
 import './App.css';
-import {NavBar} from './components/NavBar/NavBar'
+import NavBar from './components/NavBar/NavBar'
 import MainMenu from './components/MainMenu/MainMenu'
 import {useState} from 'react';
 
