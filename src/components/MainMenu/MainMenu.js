@@ -1,7 +1,4 @@
 import './MainMenu.css';
-import {useState} from 'react';
-
-
 
 function MainMenu() {
 
@@ -9,8 +6,8 @@ function MainMenu() {
     {name: "TV", src: "./images/mandalorian.png"},
     {name: "Movies", src: "./images/movie.png"},
     {name: "Games", src: "./images/games.png"},
-    {name: "Rankings", src: "./images/rankings.png"},
-    {name: "Chat", src: "./images/chat.gif"},  
+    {name: "Rankings", src: "./images/rankings.jpeg"},
+    {name: "Chat", src: "./images/chat.jpeg"},  
   ];
   const menuMapper = menuItems.map(item => {
     return (
